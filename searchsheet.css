@@ -1,0 +1,62 @@
+body{
+    background-color: white(0, 0, 0, 0.671);
+    display: grid;
+    margin: 0;
+    @media screen {
+        
+    }
+}
+.hunta{
+    position: relative;
+    height: fit-content;
+    display: inline-block;
+    padding-right: 1em;
+}
+.hunta a{
+    text-decoration: none;
+    color: black;
+}
+.hunta a:hover{
+    text-decoration: underline;
+}
+
+.kutgh{
+    width: fit-content;
+    line-height: 4em;
+    text-align: center;
+    padding-right: 1em;
+    
+    float: right;
+}
+
+.fremro{
+    position: absolute;
+    margin: 0;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+.textBar{
+    place-self: center;
+    border-radius: 24px;
+    height: 44px;
+    font-size: 1em;
+    padding-left: 12px;
+    padding-right: 12px;
+    width: 560px;
+    
+}
+form{
+    text-align: center;
+    margin: auto;
+    font-size: 1em;
+    width: fit-content;
+}
+.grosm{
+    border: 1px solid darkgrey;
+    height: 36px;
+    border-radius: 5px;
+    background-color: grey;
+    color: white;
+}

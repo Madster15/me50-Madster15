@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Search</title>
+        <style>
+            html{
+                height: 100%
+            }
+            .tphd{
+                margin: 25px 35px;
+                color: red;
+                font-size: 20px;
+                
+            }
+            .msbm{
+                min-width: 250px;
+                max-width: 1100px;
+                width: 94%;
+                margin: 35px 2% 0 40px;
+                height: 500px;
+            }
+          
+            .htgl{
+                font-size: 18px;
+                color: black;
+                height: 50px;
+            }
+            .in{
+                clear: both;
+            }
+           
+            .htns{
+                float: left;
+                display: inline-block;
+                vertical-align: middle;
+                min-width: 150px;
+                width: 20%;
+                height: 50px;
+                line-height: 15px;
+            }
+            .jtgl{
+                float: left;
+                display: inline-block;
+                vertical-align: middle;
+                min-width: 180px;
+                width: 50%;
+                min-height: 40px;
+            }
+            input{
+                width: 100%;
+                height: 30px;
+                border-color: 1px lightgrey;
+            }
+            label{
+                vertical-align: middle;
+            }
+            .sub{
+                float: right;
+                min-width: 100px;
+                height: 35px;
+                line-height: 100%;
+                text-align: center;
+                background-color: #4d90fe;
+                border-radius: 1px;
+                border: 1px solid #3079ed;
+                font-size: 11px;
+                color: white;
+                width: 100px;
+                
+            }
+        </style>
+    </head>
+    <body>
+        <div class="tphd">
+            <div>
+                <label style="margin-left: 10px;">Advanced Search</label>
+            </div>
+        </div>
+        <div style="border: 1px solid lightgrey;"></div>
+        <div class="msbm">
+            <form action="https://www.google.com/search?as_q=busty&as_epq=&as_oq=&as_eq=&as_nlo=">
+                <div class="htgl">
+                    <span>Find pages with...</span>
+                </div>
+                <div class="in">
+                    <div class="htns">
+                        <label for="as_q">all these words:</label>
+                    </div>
+                    <div class="jtgl">
+                        <input type="text" name="as_q" id="tyh">
+                    </div>
+                </div>
+                <div class="in">
+                    <div class="htns">
+                        <label for="as_epq">this exact word and phrase:</label>
+                    </div>
+                    <div class="jtgl">
+                        <input type="text" name="as_epq" id="tyhr">
+                    </div>
+                </div>
+                <div class="in">
+                    <div class="htns">
+                        <label for="as_oq">any of these words:</label>
+                    </div>
+                    <div class="jtgl">
+                        <input type="text" name="as_oq" id="tyhy">
+                    </div>
+                </div>
+                <div class="in">
+                    <div class="htns">
+                        <label for="as_eq">none of these words:</label>
+                    </div>
+                    <div class="jtgl">
+                        <input type="text" name="as_eq" id="tyht">
+                    </div>
+                </div>
+                <div class="in">
+                    <div class="htns">
+                        <label for="as_nlo">numbers ranging from:</label>
+                    </div>
+                    <div class="jtgl">
+                        <input type="text" name="as_nlo" id="tyhe">
+                    </div>
+                </div>
+                <div class="in">
+                    <div class="htns"></div>
+                    <div class="jtgl" style="text-align: right;">
+                    <input type="submit"  value="Advanced Search" class="sub">
+                    </div>
+                </div>
+            </form>
+        </div>
+        
+    </body>
+</html>
